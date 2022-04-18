@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Oswald:wght@500&family=Raleway:wght@100;500;600;900&family=Shadows+Into+Light+Two&display=swap"
+        rel="stylesheet">
+        <script src="script.js"></script>
+</head>
+
+<body>
+    <h1 class="inicio">Calculadora de propinas</h1>
+    <div class="contenedor"><br><br/>
+
+        <h2 class="segundo">Total de la cuenta (Col $)</h2>
+        <input type="text" id="caja1" placeholder="Total de la cuenta"><br><br />
+
+        <h2 class="tercero">Porcentaje de propinas (%)</h2>
+        <input type="text" id="caja2" placeholder="Porcentaje de propinas"><br><br />
+
+        <h2 class="cuarto"></h2>
+        <input type="hidden" id="caja3"><br><br />
+
+        <button type="button" id="btn" onclick= "CalcularPropina()">Calcular</button><br><br />
+
+    </div>
+
+    <script>
+        function animar(){
+            document.getElementsByClassName("contenedor2").classlist.toogle;
+        }
+        document.getElementsById ("btn").onclick = function(){
+            animar();
+        }
+    </script>
+
+
+    <h1 class="inicio2">Resumen</h1>
+    <div class="contenedor2"><br></br>
+
+        <div>Total de propina</div> <span>$</span> 
+        <span id="resultado1"></span><br><br>
+
+        <div>Total pago</div> <span>$</span> 
+        <span id="resultado2"></span><br><br>
+
+        <b><span id="resultado3"></span></b>
+
+        <button type="reset " id="btn2" onclick="resetFormulario()">Limpiar</button><br><br />
+
+
+    </div>
+
+</body>
+
+</html>

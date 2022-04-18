@@ -1,0 +1,88 @@
+*{
+    font-family: 'Oswald', sans-serif;
+    background-color: rgb(66, 65, 65);
+}
+
+.inicio {
+    text-align: center;
+    color: white;
+}
+
+.contenedor {
+    color: white;
+    width: 900px;
+    text-align: center;
+    border-radius: 30px;
+    margin: auto;
+    background-color: lightgray;
+    opacity: 70%;
+    height: 600px;
+}
+
+#caja1 {
+  border-radius: 10px;
+  border: solid white;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  width: 200px;
+}
+
+#caja2 {
+    border-radius: 10px;
+    border: solid white;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    width: 200px;
+}
+
+#caja3 {
+    background: rgb(66, 65, 65);
+}
+
+
+#btn {
+    border-radius: 50px;
+    border: solid white;
+    background-color: white;
+    font-weight: bold;
+    cursor: pointer;
+    width: 150px;
+}
+
+#btn:hover {
+    color: white;
+    background-color: black;
+}
+
+.inicio2 {
+    text-align: center;
+    color: white;
+}
+
+.contenedor2 {
+    color: white;
+    width: 300px;
+    text-align: center;
+    border-radius: 30px;
+    margin: auto;
+    background-color: lightgray;
+    opacity: 70%;
+    height: 200px;
+    padding: 20px 20px 50px 50px;
+}
+
+#btn2 {
+    border-radius: 50px;
+    border: solid white;
+    background-color: white;
+    font-weight: bold;
+    cursor: pointer;
+    width: 150px;
+}
+
+#btn2:hover {
+    color: white;
+    background-color: black;
+}
